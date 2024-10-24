@@ -58,5 +58,5 @@ Models/bag
 *.psx
 Models/shoe/*.png
 Models/shoe/calibrationImages
-MPILO - Backend/constants.js
+MPILO - backend/constants.js
 
