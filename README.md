@@ -50,6 +50,21 @@ npm i
 
 ---
 
+## 📂 Setting up constants.js
+
+Navigate into the **MPILO_Backend** folders, and add a file called `constants.js` and add the following, server details are based off your own hpc details. If you want to render on your own laptop set mode to `local`:
+```
+const port = 
+const server = '' 
+const username = '' 
+const password = '' 
+const mode = 'hpc'
+const webite_server = ''
+
+module.exports = { port, server, username, password, mode, webite_server };
+```
+---
+
 ## 🚀 Starting the Application
 
 Follow these steps to start the MPILO app:
